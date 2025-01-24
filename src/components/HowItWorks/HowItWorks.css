@@ -1,0 +1,36 @@
+@import url('https://fonts.cdnfonts.com/css/ethereal');
+
+.heading-HIW {
+    margin-top: 80px;
+    text-align: center;
+    font-family: Ethereal,  serif;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-family: 'poppins',  sans-serif;
+    margin-bottom: 30px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container img {
+    height: 650px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.video-container img:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+    transition: 0.2s;
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.159));
+}

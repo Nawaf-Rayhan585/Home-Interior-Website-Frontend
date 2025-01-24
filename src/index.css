@@ -1,0 +1,25 @@
+* {
+  font-family: 'poppins' , sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffd69d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #db9859;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #db9e48;
+}

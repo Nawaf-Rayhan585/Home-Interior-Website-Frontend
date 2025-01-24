@@ -1,0 +1,52 @@
+.card-container {
+    height: 40vh;
+    width: 100vw;
+    margin-bottom: 60px;
+}
+
+.features-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.card-item {
+    border: 1px solid #7777774c;
+    padding: 30px;
+    width: 300px;
+    height: 220px;
+    margin-right: 30px;
+    border-radius: 12px;
+    transition: 0.2s;
+    margin-top: calc(40vw / 15);
+}
+
+.card-item:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+}
+
+
+.header-card-3 {
+    font-size: 22px;
+    text-align: center;
+    font-family: Ethereal;
+    margin-bottom: 20px;
+}
+
+.p-card {
+    font-size: 16px;
+}
+
+.icon-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-card {
+    font-size: 55px;
+    margin-bottom: 25px;
+    color: rgba(219, 132, 78, 0.725);
+}

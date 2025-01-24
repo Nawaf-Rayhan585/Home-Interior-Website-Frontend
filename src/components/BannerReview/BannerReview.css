@@ -1,0 +1,36 @@
+.container-review-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+  }
+  
+  .testimonial {
+    background-color: transparent;
+    padding: 40px;
+    border: 1px solid #c99d6b;
+    border-radius: 20px;
+    /* box-shadow: 4px px 0px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+  }
+  
+  .testimonial img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial strong {
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+  }

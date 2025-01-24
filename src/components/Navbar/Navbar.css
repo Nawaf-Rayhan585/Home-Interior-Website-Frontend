@@ -1,0 +1,135 @@
+nav{
+    z-index: 99;
+    width: 100%;
+    background: transparent;
+} 
+
+nav:hover {
+    background: #f7f7f7;
+    transition: 0.3s;
+}
+
+nav .wrapper{
+    position: relative;
+    max-width: 1600px;
+    padding: 0px 30px;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.wrapper .logo a{
+    color: #1f1f1f;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.wrapper .nav-links{
+    display: inline-flex;
+}
+  
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    color: #171717;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 23px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-links .mobile-item{
+    display: none;
+}
+
+.nav-links .drop-menu{
+    position: absolute;
+    background: #242526;
+    width: 180px;
+    line-height: 45px;
+    top: 85px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+  .nav-links li:hover .drop-menu {
+    transition: all 0.3s ease;
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    background: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .drop-menu li a{
+    width: 100%;
+    display: block;
+    padding: 0 0 0 15px;
+    font-weight: 400;
+    border-radius: 0px;
+  }
+
+  .content .row img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .content .row header{
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .wrapper .btn.close-btn{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+  }
+
+  nav input{
+    display: none;
+  }
+
+  .nav-btn {
+    background: #c7845d;
+    border: none;
+    padding: 10px 18px 10px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #ffffff;
+    transition: 0.3s;
+  }
+
+  .nav-btn:hover {
+    background: transparent;
+    border: 1px solid #c7845d;
+    color: #171717;
+    transition: 0.3s;
+  }
+
+  /* COUPON NAV */
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	top: 0;
+  background: #f3d9be;
+}
+
+.centered-text{
+    margin-left: 550px;
+    margin-top: 30px;
+}

@@ -1,0 +1,28 @@
+.container-icon-main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 70px;
+  }
+
+  .icon-container {
+    text-align: center;
+  }
+
+  .icon-container .img {
+    font-size: 40px; /* Adjust size as needed */
+    margin-bottom: 10px;
+  }
+
+  .text {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .img {
+    color: rgb(216, 166, 103);
+  }

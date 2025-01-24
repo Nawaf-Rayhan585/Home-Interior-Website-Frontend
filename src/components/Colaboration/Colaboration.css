@@ -1,0 +1,29 @@
+.collaboration-container {
+    background: #f6f6f6;
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: 70px;
+}
+
+.heading-C {
+    padding-top: 80px;
+    text-align: center;
+    font-family: Ethereal,  serif;
+    margin-bottom: 10px;
+}
+
+.text-collaboration {
+    font-size: 18px;
+}
+
+.worked-with {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-brand {
+    width: 1500px;
+    margin-right: 50px;
+    margin-top: 70px;
+}

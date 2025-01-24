@@ -1,0 +1,128 @@
+
+.container-room {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.container-room li {
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #d8a667;
+    border-radius: 50px;
+}
+
+.button-portfolio {
+    padding:15px 40px 15px 40px;
+    border: 1px solid #d8a667;
+    border-radius: 10px;
+    background: #d8a667;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+.button-portfolio:hover {
+    border: 1px solid #d8a667;
+    background: transparent;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ========================Slider========================= */
+
+
+.wrapper-slider {
+    transform: scale(1.7);
+}
+
+.slide {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  perspective: 100px;
+}
+
+.img2 {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  transition: transform 1s;
+  border-radius: 10px;
+}
+
+.image-slider {
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow-x: hidden;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.image-slider-track {
+  display: flex;
+  width: calc(200px * 12);
+  animation: play 30s linear infinite;
+}
+
+@keyframes play {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 6));
+  }
+}
+
+.image-slider::before,
+.image-slider::after {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  width: 25%;
+  z-index: 2;
+  position: absolute;
+}
+
+.image-slider::before {
+  left: 0;
+  top: 0;
+}
+
+.image-slider::after {
+  right: 0;
+  top: 0;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.img:hover {
+  transform: translateZ(20px);
+}

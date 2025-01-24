@@ -1,0 +1,86 @@
+.plan-main {
+    height: 50vh;
+    background: #f6f6f6;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.row-plan {
+    width: 100%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    overflow-x: hidden;
+    padding: 5rem 0;
+}
+
+.row-plan .imgWrapper {
+    overflow: hidden;
+}
+
+.row-plan .imgWrapper .img-plan {
+    width: 560px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.row-plan .imgWrapper:hover .img-plan {
+    transform: scale(1.1);
+}
+
+.row-plan .contentWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.row-plan .contentWrapper span.textWrapper {
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.row-plan .contentWrapper span.textWrapper span {
+    display: inline-block;
+    background: #2b2b2b;
+    width: 100px;
+    height: 4px;
+}
+
+.plan-p {
+    font-size: 16px;
+    color: #777;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.plan-header-2 {
+    font-family: Ethereal;
+}
+
+.btn-plan {
+    padding: 15px 90px 15px 90px;
+    border: none;
+    background: #44484a;
+    color: aliceblue;
+    border-radius: 6px;
+    margin-left: 74px;
+    font-size: 20px;
+}
+
+
+

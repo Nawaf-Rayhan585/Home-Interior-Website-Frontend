@@ -1,0 +1,115 @@
+.footer-footer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1850px;
+    width: 100%;
+    background: #231c14;
+    border-radius: 6px;
+    margin-top: 5750px;
+  }
+  .footer-footer .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 60px;
+  }
+  .footer-row .footer-col h4 {
+    color: #ffffff;
+    font-size: 1.42rem;
+    font-weight: 400;
+    font-family: Ethereal;
+  }
+  .footer-col .links {
+    margin-top: 20px;
+  }
+  .footer-col .links .li-footer {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .footer-col .links .li-footer  a {
+    text-decoration: none;
+    color: #b6b6b6;
+  }
+  .footer-col .links .li-footer  a:hover {
+    color: #d9a62d;
+  }
+  .footer-col .footer-text {
+    margin: 20px 0;
+    color: #cacaca;
+    max-width: 300px;
+  }
+  .footer-col form {
+    display: flex;
+    gap: 5px;
+  }
+  .footer-col input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ffffff ;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+  }
+
+  h5 {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .footer-col input::placeholder {
+    color: #ccc;
+  }
+   .footer-col form button {
+    background: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  .footer-col form button:hover {
+    background: #cecccc;
+  }
+  .footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+  }
+  .footer-col .icons i {
+    color: #afb6c7;
+  }
+  .footer-col .icons i:hover  {
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    .footer-footer {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      transform: none;
+      width: 100%;
+      border-radius: 0;
+    }
+    .footer .footer-row {
+      padding: 20px;
+      gap: 1rem;
+    }
+    .footer-col form {
+      display: block;
+    }
+    .footer-col form :where(input, button) {
+      width: 100%;
+    }
+    .footer-col form button {
+      margin: 10px 0 0 0;
+    }
+  }

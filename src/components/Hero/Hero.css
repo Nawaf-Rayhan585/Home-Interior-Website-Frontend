@@ -1,0 +1,54 @@
+@import url('https://fonts.cdnfonts.com/css/ethereal');
+
+
+.header-slogan1 {
+    text-align: center;
+    font-family: Ethereal,  serif;
+    font-size: 60px ;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 20px #000000;
+}
+.header-slogan2 {
+    text-align: center;
+    font-family: Ethereal, serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 20px #000000;
+}
+
+.nav-btn-hero {
+    background: #c7845d;
+    border: none;
+    padding: 10px 18px 10px 18px;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #f2f2f2;
+    margin-top: 30px;
+    transition: 0.1s;
+}
+
+.nav-btn-hero:hover {
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    transition: 0.1s;
+}
+
+.main-image {
+    position: relative;
+    background: url(heroimage.jpg) no-repeat center;
+    background-size: cover;
+    height: 720px;
+    overflow: hidden;
+}
+
+.container-hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+}
